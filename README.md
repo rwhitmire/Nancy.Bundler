@@ -1,4 +1,4 @@
-Nancy.Bundlers
+Nancy.Bundler
 ==============
 
-Bundler libraries for the Nancy framework
+Bundler for the Nancy web framework
