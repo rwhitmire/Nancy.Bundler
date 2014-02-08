@@ -1,0 +1,21 @@
+﻿@using Nancy.Bundler.Razor
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Razor Bundling Example</title>
+</head>
+<body>
+    <div>
+        Razor Bundling!
+    </div>
+    
+    @ScriptBundle.Render("bundles/main.js")
+</body>
+</html>

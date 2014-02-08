@@ -1,0 +1,5 @@
+﻿(function() {
+
+    console.log('foo');
+
+}());
