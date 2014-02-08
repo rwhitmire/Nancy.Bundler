@@ -1,6 +1,6 @@
 ﻿using Nancy.ViewEngines.Razor;
 
-namespace Nancy.Bundler.Razor
+namespace Nancy.Bundler.Helpers
 {
     public static class ScriptBundle
     {

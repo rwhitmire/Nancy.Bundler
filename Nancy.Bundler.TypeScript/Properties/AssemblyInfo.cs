@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Nancy.Bundler.Razor")]
+[assembly: AssemblyTitle("Nancy.Bundler.TypeScript")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Nancy.Bundler.Razor")]
+[assembly: AssemblyProduct("Nancy.Bundler.TypeScript")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("51f3ad9c-8b40-4261-b4b8-861f5496c95c")]
+[assembly: Guid("182dba04-a851-408c-a999-ad93b1ec6633")]
 
 // Version information for an assembly consists of the following four values:
 //

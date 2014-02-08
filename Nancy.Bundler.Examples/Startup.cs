@@ -1,6 +1,6 @@
 ﻿using Owin;
 
-namespace Nancy.Bundler.Example.Razor
+namespace Nancy.Bundler.Examples
 {
     public class Startup
     {

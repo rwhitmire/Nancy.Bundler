@@ -1,4 +1,4 @@
-﻿namespace Nancy.Bundler.Example.Razor.Modules
+﻿namespace Nancy.Bundler.Examples.Modules
 {
     public class HomeModule : NancyModule
     {

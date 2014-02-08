@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Nancy.Bundler.Example.Razor</RootNamespace>
-    <AssemblyName>Nancy.Bundler.Example.Razor</AssemblyName>
+    <RootNamespace>Nancy.Bundler.Examples</RootNamespace>
+    <AssemblyName>Nancy.Bundler.Examples</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -104,10 +104,6 @@
     <Folder Include="Content\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Nancy.Bundler.Razor\Nancy.Bundler.Razor.csproj">
-      <Project>{c2248506-90d8-48e7-b9a8-1e75ad0f85ac}</Project>
-      <Name>Nancy.Bundler.Razor</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Nancy.Bundler\Nancy.Bundler.csproj">
       <Project>{c0b47c95-7311-4613-9666-bd51afc51aea}</Project>
       <Name>Nancy.Bundler</Name>
