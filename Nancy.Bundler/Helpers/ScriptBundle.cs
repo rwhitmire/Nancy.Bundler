@@ -1,4 +1,4 @@
-﻿using Nancy.ViewEngines.Razor;
+﻿using System.Web;
 
 namespace Nancy.Bundler.Helpers
 {
@@ -9,7 +9,7 @@ namespace Nancy.Bundler.Helpers
             var orchestrator = new BundleResolver();
             var scripts = orchestrator.BuildScripts(bundleName);
 
-            return new NonEncodedHtmlString(scripts);
+            return new HtmlString(scripts);
         }
     }
 }
