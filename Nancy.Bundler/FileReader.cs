@@ -14,5 +14,10 @@ namespace Nancy.Bundler
         {
             return File.ReadAllLines(path);
         }
+
+        public byte[] ReadAllBytes(string path)
+        {
+            return File.ReadAllBytes(path);
+        }
     }
 }

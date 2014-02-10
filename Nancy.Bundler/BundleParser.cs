@@ -33,7 +33,7 @@ namespace Nancy.Bundler
 
         private static string RemoveCommentAndPeriod(string line)
         {
-            return line.Replace("//", "").Replace("./", "/").Trim();
+            return line.Replace("//", "").Replace("~/", "/").Trim();
         }
     }
 }

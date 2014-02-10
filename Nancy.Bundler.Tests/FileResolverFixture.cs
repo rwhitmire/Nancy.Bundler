@@ -17,8 +17,8 @@ namespace Nancy.Bundler.Tests
 
             var lines = new List<string>
             {
-                "// ./foo.js",
-                "// ./bar.js"
+                "// ~/foo.js",
+                "// ~/bar.js"
             };
 
             appManager.Setup(x => x.GetRootDirectory()).Returns(string.Empty);

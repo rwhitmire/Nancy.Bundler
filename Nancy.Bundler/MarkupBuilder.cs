@@ -20,6 +20,9 @@ namespace Nancy.Bundler
         public string GetScriptsForDebugging(string bundleName)
         {
             var files = _bundleParser.GetRelativeFiles(bundleName);
+
+            // do something with compiler here when not js or css
+
             var scripts = GetScriptMarkup(files);
 
             return scripts;

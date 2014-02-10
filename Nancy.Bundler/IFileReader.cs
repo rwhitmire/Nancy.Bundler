@@ -6,5 +6,6 @@ namespace Nancy.Bundler
     {
         string ReadAllText(string path);
         IEnumerable<string> ReadAllLines(string path);
+        byte[] ReadAllBytes(string path);
     }
 }

@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="BundleResolverFixture.cs" />
     <Compile Include="FileResolverFixture.cs" />
+    <Compile Include="HashGeneratorFixture.cs" />
     <Compile Include="MarkupBuilderFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

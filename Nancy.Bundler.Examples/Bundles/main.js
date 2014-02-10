@@ -1,2 +1,2 @@
-﻿// ./Scripts/foo.js
-// ./Scripts/bar.js
+﻿// ~/Scripts/foo.js
+// ~/Scripts/bar.js

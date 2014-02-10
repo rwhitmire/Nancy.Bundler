@@ -56,6 +56,7 @@
     <Compile Include="Container.cs" />
     <Compile Include="BundleParser.cs" />
     <Compile Include="FileReader.cs" />
+    <Compile Include="HashGenerator.cs" />
     <Compile Include="Helpers\ScriptBundle.cs" />
     <Compile Include="IAppManager.cs" />
     <Compile Include="IBundleParser.cs" />
