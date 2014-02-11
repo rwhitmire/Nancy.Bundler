@@ -31,6 +31,7 @@ namespace Nancy.Bundler
         public string GetScriptsForProduction(string bundleName)
         {
             // get list of physical file names
+            var files = _bundleParser.GetPhysicalFiles(bundleName);
 
             // load the files
 

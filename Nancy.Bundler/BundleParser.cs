@@ -23,12 +23,36 @@ namespace Nancy.Bundler
 
         public IEnumerable<string> GetRelativeFiles(string bundleName)
         {
+            return ReadBundle(bundleName);
+        }
+
+        public IEnumerable<string> GetPhysicalFiles(string bundleName)
+        {
+            var lines = ReadBundle(bundleName);
+            
+            var physicalFiles = lines.Select(GetPhysicalFilePath);
+
+            return physicalFiles;
+        }
+
+        private string GetPhysicalFilePath(string fileName)
+        {
+            if (string.IsNullOrWhiteSpace(fileName)) return "";
+
+            if (fileName[0] == '/') 
+                fileName = fileName.Substring(1, fileName.Length-1);
+
+            var root = _appManager.GetRootDirectory();
+            
+            return Path.Combine(root, fileName);
+        }
+
+        private IEnumerable<string> ReadBundle(string bundleName)
+        {
             var root = _appManager.GetRootDirectory();
             var physicalPath = Path.Combine(root, bundleName);
-            var lines = _fileReader.ReadAllLines(physicalPath);
-            var files = lines.Select(RemoveCommentAndPeriod);
-
-            return files;
+            var lines = _fileReader.ReadAllLines(physicalPath).Select(RemoveCommentAndPeriod);
+            return lines;
         }
 
         private static string RemoveCommentAndPeriod(string line)

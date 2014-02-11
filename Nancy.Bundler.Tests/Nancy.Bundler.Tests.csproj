@@ -50,6 +50,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BundleParserFixture.cs" />
     <Compile Include="BundleResolverFixture.cs" />
     <Compile Include="FileResolverFixture.cs" />
     <Compile Include="HashGeneratorFixture.cs" />
